@@ -11,6 +11,12 @@
 		B9C7BF361C84EE0700F88CB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C7BF351C84EE0700F88CB6 /* main.m */; };
 		B9C7BF381C84EE0800F88CB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C7BF371C84EE0800F88CB6 /* Assets.xcassets */; };
 		B9C7BF3B1C84EE0800F88CB6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9C7BF391C84EE0800F88CB6 /* MainMenu.xib */; };
+		B9C7BF451C84EFDC00F88CB6 /* NaturalCollapse.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C7BF431C84EFDC00F88CB6 /* NaturalCollapse.m */; };
+		B9C7BF461C84EFDC00F88CB6 /* NaturalCollapse.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9C7BF441C84EFDC00F88CB6 /* NaturalCollapse.xib */; };
+		B9C7BF4C1C84F16E00F88CB6 /* NotCollapse.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C7BF4A1C84F16E00F88CB6 /* NotCollapse.m */; };
+		B9C7BF4D1C84F16E00F88CB6 /* NotCollapse.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9C7BF4B1C84F16E00F88CB6 /* NotCollapse.xib */; };
+		B9C7BF501C851CF500F88CB6 /* sidebar.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C7BF4F1C851CF500F88CB6 /* sidebar.png */; };
+		B9C7BF531C85217100F88CB6 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = B9C7BF521C85217100F88CB6 /* dummy.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +27,14 @@
 		B9C7BF371C84EE0800F88CB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9C7BF3A1C84EE0800F88CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		B9C7BF3C1C84EE0800F88CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9C7BF421C84EFDC00F88CB6 /* NaturalCollapse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaturalCollapse.h; sourceTree = "<group>"; };
+		B9C7BF431C84EFDC00F88CB6 /* NaturalCollapse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaturalCollapse.m; sourceTree = "<group>"; };
+		B9C7BF441C84EFDC00F88CB6 /* NaturalCollapse.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NaturalCollapse.xib; sourceTree = "<group>"; };
+		B9C7BF491C84F16E00F88CB6 /* NotCollapse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotCollapse.h; sourceTree = "<group>"; };
+		B9C7BF4A1C84F16E00F88CB6 /* NotCollapse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotCollapse.m; sourceTree = "<group>"; };
+		B9C7BF4B1C84F16E00F88CB6 /* NotCollapse.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotCollapse.xib; sourceTree = "<group>"; };
+		B9C7BF4F1C851CF500F88CB6 /* sidebar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sidebar.png; path = Graphics/sidebar.png; sourceTree = "<group>"; };
+		B9C7BF521C85217100F88CB6 /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dummy.txt; path = Resources/dummy.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +69,12 @@
 			children = (
 				B9C7BF311C84EE0700F88CB6 /* AppDelegate.h */,
 				B9C7BF321C84EE0700F88CB6 /* AppDelegate.m */,
-				B9C7BF371C84EE0800F88CB6 /* Assets.xcassets */,
 				B9C7BF391C84EE0800F88CB6 /* MainMenu.xib */,
-				B9C7BF3C1C84EE0800F88CB6 /* Info.plist */,
+				B9C7BF481C84F12E00F88CB6 /* NotCollapse */,
+				B9C7BF471C84EFFE00F88CB6 /* NaturalCollapse */,
+				B9C7BF4E1C851B2B00F88CB6 /* Graphics */,
+				B9C7BF511C85214A00F88CB6 /* Resources */,
+				B9C7BF371C84EE0800F88CB6 /* Assets.xcassets */,
 				B9C7BF341C84EE0700F88CB6 /* Supporting Files */,
 			);
 			path = SplitViewTest;
@@ -66,9 +83,46 @@
 		B9C7BF341C84EE0700F88CB6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B9C7BF3C1C84EE0800F88CB6 /* Info.plist */,
 				B9C7BF351C84EE0700F88CB6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9C7BF471C84EFFE00F88CB6 /* NaturalCollapse */ = {
+			isa = PBXGroup;
+			children = (
+				B9C7BF441C84EFDC00F88CB6 /* NaturalCollapse.xib */,
+				B9C7BF421C84EFDC00F88CB6 /* NaturalCollapse.h */,
+				B9C7BF431C84EFDC00F88CB6 /* NaturalCollapse.m */,
+			);
+			name = NaturalCollapse;
+			sourceTree = "<group>";
+		};
+		B9C7BF481C84F12E00F88CB6 /* NotCollapse */ = {
+			isa = PBXGroup;
+			children = (
+				B9C7BF4B1C84F16E00F88CB6 /* NotCollapse.xib */,
+				B9C7BF491C84F16E00F88CB6 /* NotCollapse.h */,
+				B9C7BF4A1C84F16E00F88CB6 /* NotCollapse.m */,
+			);
+			name = NotCollapse;
+			sourceTree = "<group>";
+		};
+		B9C7BF4E1C851B2B00F88CB6 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				B9C7BF4F1C851CF500F88CB6 /* sidebar.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		B9C7BF511C85214A00F88CB6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9C7BF521C85217100F88CB6 /* dummy.txt */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,8 +182,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9C7BF4D1C84F16E00F88CB6 /* NotCollapse.xib in Resources */,
+				B9C7BF531C85217100F88CB6 /* dummy.txt in Resources */,
+				B9C7BF501C851CF500F88CB6 /* sidebar.png in Resources */,
 				B9C7BF381C84EE0800F88CB6 /* Assets.xcassets in Resources */,
 				B9C7BF3B1C84EE0800F88CB6 /* MainMenu.xib in Resources */,
+				B9C7BF461C84EFDC00F88CB6 /* NaturalCollapse.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +198,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9C7BF4C1C84F16E00F88CB6 /* NotCollapse.m in Sources */,
 				B9C7BF361C84EE0700F88CB6 /* main.m in Sources */,
+				B9C7BF451C84EFDC00F88CB6 /* NaturalCollapse.m in Sources */,
 				B9C7BF331C84EE0700F88CB6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,7 +255,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -232,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -245,6 +305,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SplitViewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sao.SplitViewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -257,6 +318,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = SplitViewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sao.SplitViewTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

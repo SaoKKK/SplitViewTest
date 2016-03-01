@@ -9,7 +9,8 @@
 #import <Cocoa/Cocoa.h>
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
+@property (readonly,nonatomic)NSString* dummyTxt;
 
-
+- (void)switchMenuTitle:(NSString *)winTitle;
 @end
 
